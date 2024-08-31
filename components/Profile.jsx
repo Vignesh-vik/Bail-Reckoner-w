@@ -17,7 +17,7 @@ export default function Component() {
             They can include legal representatives like attorneys or advocates who provide legal counsel and represent clients in legal matters. In other contexts, representatives might be family members, legal guardians, or authorized agents who handle legal issues or make decisions for someone who is unable to do so themselves. Their role is to ensure that the person they represent receives appropriate legal support and their interests are effectively communicated and protected.
             </p>
             <Link
-              href="dashboard/rep"
+              href="CnrLog"
               className="inline-flex mt-4 h-10 items-center justify-center rounded-md bg-primary px-8 text-sm font-medium text-primary-foreground shadow transition-colors hover:bg-primary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-white hover:text-black"
            
             >
@@ -33,7 +33,7 @@ export default function Component() {
             Individuals or organizations that provide legal aid are typically referred to as "legal aid providers" or "legal aid organizations." These entities offer free or low-cost legal assistance to individuals who cannot afford traditional legal services. Legal aid providers include nonprofit organizations, legal clinics, and sometimes government agencies that focus on helping people navigate legal issues related to family law, housing, immigration, and more. Their goal is to ensure that even those with limited financial resources have access to legal support and representation.
             </p>
             <Link
-              href="/aid"
+              href="dashboard/aid"
               className="inline-flex mt-4 h-10 items-center justify-center rounded-md bg-secondary px-8 text-sm font-medium text-secondary-foreground shadow transition-colors hover:bg-secondary/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50  hover:bg-black hover:text-white hover:opacity-70"
               prefetch={false}
             >
