@@ -12,15 +12,15 @@ return (
 <main className="flex-1 grid grid-cols-[250px_1fr] gap-6 p-6">
 <div className="bg-card text-card-foreground rounded-lg shadow-sm">
 <nav className="flex flex-col gap-2 p-4">
-<Link href="#" className="flex items-center gap-2 hover:bg-muted/50 px-3 py-2 rounded-md" prefetch={false}>
+<Link href="aid" className="flex items-center gap-2 hover:bg-muted/50 px-3 py-2 rounded-md" prefetch={false}>
 <LayoutDashboardIcon className="h-4 w-4" />
 Dashboard
 </Link>
-<Link href="#" className="flex items-center gap-2 hover:bg-muted/50 px-3 py-2 rounded-md" prefetch={false}>
+<Link href="aid/Cases" className="flex items-center gap-2 hover:bg-muted/50 px-3 py-2 rounded-md" >
 <BriefcaseIcon className="h-4 w-4" />
 Cases
 </Link>
-<Link href="#" className="flex items-center gap-2 hover:bg-muted/50 px-3 py-2 rounded-md" prefetch={false}>
+<Link href="aid/Clients" className="flex items-center gap-2 hover:bg-muted/50 px-3 py-2 rounded-md" prefetch={false}>
 <UserIcon className="h-4 w-4" />
 Clients
 </Link>
@@ -28,13 +28,9 @@ Clients
 <FileIcon className="h-4 w-4" />
 Documents
 </Link>
-<Link href="#" className="flex items-center gap-2 hover:bg-muted/50 px-3 py-2 rounded-md" prefetch={false}>
+<Link href="/Profile" className="flex items-center gap-2 hover:bg-muted/50 px-3 py-2 rounded-md" prefetch={false}>
 <SettingsIcon className="h-4 w-4" />
 Settings
-</Link>
-<Link href="#" className="flex items-center gap-2 hover:bg-muted/50 px-3 py-2 rounded-md" prefetch={false}>
-<PlusIcon className="h-4 w-4" />
-Case Requests
 </Link>
 </nav>
 </div>
